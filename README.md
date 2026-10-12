@@ -7,6 +7,8 @@ musical key, and resynthesize with formants preserved (so the voice doesn't soun
 "chipmunked"). Comes with a command-line tool and a Gradio web UI, both with batch
 processing for whole folders of takes.
 
+![Pitch correction Gradio interface](docs/screenshot.jpg)
+
 ## How it works
 
 1. **Pitch detection** — [`librosa.pyin`](https://librosa.org/) (probabilistic YIN)
